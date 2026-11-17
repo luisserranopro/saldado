@@ -1,6 +1,6 @@
 # Política de privacidad de Saldado
 
-*Última actualización: [FECHA DE PUBLICACIÓN]*
+*Última actualización: 17/11/2026*
 
 Saldado (en adelante, «la app») es una aplicación gratuita para apuntar gastos
 compartidos y calcular quién debe a quién. Su responsable es Luis Serrano Donaire, con quien se puede contactar en info@alcancia.work.
