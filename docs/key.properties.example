@@ -1,0 +1,11 @@
+# Copia este archivo como android/key.properties (dentro de la carpeta android/
+# que crea `flutter create`) y rellena tus datos. NUNCA lo subas al repositorio.
+#
+# La clave se crea una sola vez con (Windows, cmd):
+#   "C:\Program Files\Android\Android Studio\jbr\bin\keytool" -genkey -v -keystore %USERPROFILE%\saldado-upload.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# Ruta con barras normales (/).
+storePassword=contrasena_del_almacen
+keyPassword=contrasena_del_almacen
+keyAlias=upload
+storeFile=C:/Users/tu_usuario/saldado-upload.jks

@@ -1,0 +1,57 @@
+name: saldado
+description: Saldado - gastos compartidos entre amigos, en el piso o de viaje.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+  flutter: '>=3.35.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Traducciones de los componentes de Material (calendario, botones…)
+  flutter_localizations:
+    sdk: flutter
+  # Base de datos local (las mismas versiones que funcionan en Peliculeitor)
+  sqflite: ^2.4.6
+  sqflite_common_ffi_web: ^1.2.2
+  path: ^1.9.1
+  # Abrir WhatsApp con el resumen
+  url_launcher: ^6.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  # Generan los iconos y la pantalla de arranque nativa (ver README)
+  flutter_launcher_icons: ^0.14.0
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icono.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#0B7A62"
+  adaptive_icon_foreground: "assets/icon/icono_primer_plano.png"
+  web:
+    generate: true
+    image_path: "assets/icon/icono.png"
+    background_color: "#F3F7F5"
+    theme_color: "#0E9F7E"
+
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#0E9F7E"
+  image: assets/icon/splash.png
+  android_12:
+    color: "#0E9F7E"
+    image: assets/icon/icono_primer_plano.png
+  web: true
